@@ -2,95 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>CISC 322 – Team Extreme</title>
+  <title>CISC 322 — Team Extreme</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    .container { max-width: 900px; margin: auto; }
-    h1, h2, h3 { color: #2c3e50; }
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.65; }
+    .container { max-width: 920px; margin: auto; }
+    h1, h2 { color: #1f2d3d; }
+    h3 { color: #2c3e50; margin-bottom: 10px; }
     ul { padding-left: 20px; }
-    a { color: #0066cc; text-decoration: none; }
+    li { margin: 6px 0; }
+    a { color: #0b66c3; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .section { margin-top: 30px; }
-    .meta { color: #555; }
+    .section { margin-top: 34px; }
+    .meta { color: #555; margin-top: 6px; }
+    .card { border: 1px solid #e6e6e6; border-radius: 14px; padding: 18px 20px; margin-top: 14px; }
+    .muted { color: #666; font-size: 0.95rem; }
+    hr { border: none; border-top: 1px solid #e9e9e9; margin: 28px 0; }
+    .two-col { display: grid; grid-template-columns: 1fr; gap: 14px; }
+    @media (min-width: 760px) { .two-col { grid-template-columns: 1fr 1fr; } }
   </style>
 </head>
-<body>
 
+<body>
 <div class="container">
 
-<h1>CISC 322 – Course Project Website</h1>
-<p class="meta">
-  <strong>Group Name:</strong> Team Extreme<br>
-  <strong>Term:</strong> Winter 2026
-</p>
+  <h1>CISC 322 — Course Project Website</h1>
+  <p class="meta">
+    <strong>Team:</strong> Team Extreme · <strong>Term:</strong> Winter 2026
+  </p>
+  <p class="muted">
+    This page is the central hub for our deliverables (A1–A3) and supporting project links.
+    We will add report / slides / presentation links after each submission.
+  </p>
 
-<hr>
+  <div class="section">
+    <h2>Team Members</h2>
+    <div class="card">
+      <ul>
+        <li>Lu, Yuxuan</li>
+        <li>Mangroliya, Sneh</li>
+        <li>Narduzzi, Ester Lucia</li>
+        <li>Newell, Lucas</li>
+        <li>Numanovic, Eldar</li>
+        <li>Robbins, Sophie</li>
+      </ul>
+    </div>
+  </div>
 
-<h2>Group Members</h2>
-<ul>
-  <li>Lu, Yuxuan </li>
-  <li>Mangroliya, Sneh</li>
-  <li>Narduzzi, Ester Lucia</li>
-  <li>Newell, Lucas</li>
-  <li>Numanovic, Eldar</li>
-  <li>Robbins, Sophie</li>
-</ul>
+  <hr>
 
-<hr>
+  <div class="section">
+    <h2>Deliverables</h2>
 
-<div class="section">
-  <h2>Project Resources & Documentation</h2>
-  <ul>
-    <li><a href="https://onq.queensu.ca" target="_blank">onQ Course Page</a></li>
-    <li><a href="#" target="_blank">Project Description / Rubric</a></li>
-    <li><a href="#" target="_blank">Reference Papers / Architecture Docs</a></li>
-  </ul>
+    <div class="card">
+      <h3>A1 — Conceptual Architecture</h3>
+      <div class="two-col">
+        <ul>
+          <li><a href="#" target="_blank" rel="noreferrer">A1 Report (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">A1 Slides</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">A1 Presentation</a></li>
+        </ul>
+        <p class="muted">
+          Add links here starting the day after the deadline.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>A2 — Concrete Architecture</h3>
+      <div class="two-col">
+        <ul>
+          <li><a href="#" target="_blank" rel="noreferrer">A2 Report (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">A2 Slides</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">A2 Presentation</a></li>
+        </ul>
+        <p class="muted">
+          Add links here starting the day after the deadline.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>A3 — Architectural Enhancement</h3>
+      <div class="two-col">
+        <ul>
+          <li><a href="#" target="_blank" rel="noreferrer">A3 Report (PDF)</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">A3 Slides</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">A3 Presentation</a></li>
+        </ul>
+        <p class="muted">
+          Add links here starting the day after the deadline.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <h2>Project Resources & Documentation</h2>
+    <div class="card">
+      <ul>
+        <li><a href="https://onq.queensu.ca" target="_blank" rel="noreferrer">onQ Course Page</a></li>
+        <li><a href="#" target="_blank" rel="noreferrer">Project Description / Rubric</a></li>
+        <li><a href="#" target="_blank" rel="noreferrer">Reference Papers / Architecture Docs</a></li>
+      </ul>
+      <p class="muted">
+        Tip: For PDFs and slides, Google Drive links (shared as “Anyone with the link”) are usually the easiest.
+      </p>
+    </div>
+  </div>
+
+  <p class="muted" style="margin-top: 28px;">
+    Last updated: <strong>2026-01-16</strong>
+  </p>
+
 </div>
-
-<hr>
-
-<div class="section">
-  <h2>A1 – Conceptual Architecture</h2>
-  <ul>
-    <li><a href="#" target="_blank">A1 Report (PDF)</a></li>
-    <li><a href="#" target="_blank">A1 Slides</a></li>
-    <li><a href="#" target="_blank">A1 Presentation (Video / Slides)</a></li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>A2 – Concrete Architecture</h2>
-  <ul>
-    <li><a href="#" target="_blank">A2 Report (PDF)</a></li>
-    <li><a href="#" target="_blank">A2 Slides</a></li>
-    <li><a href="#" target="_blank">A2 Presentation (Video / Slides)</a></li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>A3 – Architectural Enhancement</h2>
-  <ul>
-    <li><a href="#" target="_blank">A3 Report (PDF)</a></li>
-    <li><a href="#" target="_blank">A3 Slides</a></li>
-    <li><a href="#" target="_blank">A3 Presentation (Video / Slides)</a></li>
-    <li><a href="#" target="_blank">Additional Documentation</a></li>
-  </ul>
-</div>
-
-<hr>
-
-<div class="section">
-  <h2>Update Log</h2>
-  <ul>
-    <li><strong>2026-01-16:</strong> Team Extreme formed.</li>
-    <li><strong>2026-01-XX:</strong> A1 submitted and links added.</li>
-    <li><strong>2026-02-XX:</strong> A2 submitted and links added.</li>
-    <li><strong>2026-03-XX:</strong> A3 submitted and links added.</li>
-  </ul>
-</div>
-
-</div>
-
 </body>
 </html>
